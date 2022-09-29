@@ -1,0 +1,6 @@
+framework module FQLockSDK {
+  umbrella header "FQLockSDK.h"
+
+  export *
+  module * { export * }
+}
