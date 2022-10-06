@@ -8,7 +8,7 @@
 ## 项目演示
 
 <div  align='center'>
- <img src="https://user-images.githubusercontent.com/23627803/194307892-079a83d7-5f9f-4b0d-b5cc-d49b6c391b57.gif">
+ <img src="https://user-images.githubusercontent.com/23627803/194307892-079a83d7-5f9f-4b0d-b5cc-d49b6c391b57.gif" width="50%" height="50%">
 </div>
 
 ## 更新记录
@@ -65,7 +65,7 @@ pod update
 pod update FQLockSDK --no-repo-update
 ```
 ## 使用案列
-1. 在用到时间选择器的地方引用头文件
+1. 在用到密码解锁的地方引用头文件
 ```object-c
 #import <FQLockSDK/FQLockSDK.h>
 ```
