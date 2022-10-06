@@ -65,11 +65,15 @@ pod update
 pod update FQLockSDK --no-repo-update
 ```
 ## 使用案列
-1. 在用到密码解锁的地方引用头文件
+1. 先配置 `Info.plist` 权限
+`Privacy - Face ID Usage Description` - `若要使用人脸解锁，需要您同意App访问您的面容ID`
+<img width="814" alt="image" src="https://user-images.githubusercontent.com/23627803/194317090-79094c92-e411-47e2-891f-3cbc849f57ad.png">
+
+2. 在用到密码解锁的地方引用头文件
 ```object-c
 #import <FQLockSDK/FQLockSDK.h>
 ```
-2. 初始化 `FQLockGestureView`
+3. 初始化 `FQLockGestureView`
 ```
     self.lockConfig = [[FQLockConfig alloc] init];
     self.lockConfig.lockType = self.lockType;
@@ -81,14 +85,14 @@ pod update FQLockSDK --no-repo-update
     [self.view addSubview:self.lockView];
 ```
 
-3. 遵循代理`FQGestureLockViewDelegate`
+4. 遵循代理`FQGestureLockViewDelegate`
 ```
 @interface ViewController ()<FQGestureLockViewDelegate>
 
 @end
 ```
 
-4. 实现代理方法
+5. 实现代理方法
 ```
 #pragma mark - <FQGestureLockViewDelegate>
 
