@@ -66,15 +66,16 @@ pod update FQLockSDK --no-repo-update
 ```
 ## 使用案列
 1. 先配置 `Info.plist` 权限
+
 `Privacy - Face ID Usage Description` - `若要使用人脸解锁，需要您同意App访问您的面容ID`
 <img width="814" alt="image" src="https://user-images.githubusercontent.com/23627803/194317090-79094c92-e411-47e2-891f-3cbc849f57ad.png">
 
 2. 在用到密码解锁的地方引用头文件
-```object-c
+```objectivec
 #import <FQLockSDK/FQLockSDK.h>
 ```
 3. 初始化 `FQLockGestureView`
-```
+```objectivec
     self.lockConfig = [[FQLockConfig alloc] init];
     self.lockConfig.lockType = self.lockType;
     //你的APP业务逻辑和用户无关，就可以全程不用userID
@@ -86,14 +87,14 @@ pod update FQLockSDK --no-repo-update
 ```
 
 4. 遵循代理`FQGestureLockViewDelegate`
-```
+```objectivec
 @interface ViewController ()<FQGestureLockViewDelegate>
 
 @end
 ```
 
 5. 实现代理方法
-```
+```objectivec
 #pragma mark - <FQGestureLockViewDelegate>
 
 /// 连线个数少于最少连接数，通知代理
