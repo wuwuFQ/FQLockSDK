@@ -1,9 +1,9 @@
 # FQLockSDK
 > iOS手势密码解锁，面容ID解锁，指纹解锁
 
-### [博客地址，可评论](https://wuwufq.blog.csdn.net/article/details/117815524)
-### [博客地址，可探讨](https://wuwufq.blog.csdn.net/article/details/117815524)
-### [博客地址，可私聊](https://wuwufq.blog.csdn.net/article/details/117815524)
+### [博客地址，可评论](https://wuwufq.blog.csdn.net/article/details/127187585)
+### [博客地址，可探讨](https://wuwufq.blog.csdn.net/article/details/127187585)
+### [博客地址，可私聊](https://wuwufq.blog.csdn.net/article/details/127187585)
 
 ## 项目演示
 
@@ -132,4 +132,4 @@ pod update FQLockSDK --no-repo-update
 }
 ```
 
->  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
+>  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/127187585)
