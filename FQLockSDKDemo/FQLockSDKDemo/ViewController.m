@@ -131,7 +131,7 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
-    return @"开启锁屏之后，请把APP推到后台验证";
+    return @"开启锁屏之后，请把APP推到后台验证 \n指纹和面容ID解锁需要使用真机测试 ";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
