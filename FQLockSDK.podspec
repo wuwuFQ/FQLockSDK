@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FQLockSDK"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "手势密码解锁，面容ID解锁，指纹解锁"
   spec.description  = <<-DESC
   FQLockSDK: iOS手势密码解锁，iOS面容ID解锁，iOS指纹解锁，已适配解锁逻辑

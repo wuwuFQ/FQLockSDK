@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 密码会以NSUserDefaults形式保存，可以自定义key（如果和userID有关，一定要自定义）
 @property (nonatomic, copy) NSString *passwordKey;
 
-/// 解锁背景色（解锁视图是正方体）
+/// 解锁背景色（解锁视图是正方形）
 @property (nonatomic, strong) UIColor *lockViewBackgroundColor;
 
 /// 整个解锁View居中，距离屏幕左边和右边的距离 （用来控制宽度，高度等于宽度）
@@ -59,13 +59,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 //====================单个锁的外心圆==========================
 
-/// 单个锁普通状态下外心圆颜色
+/// 单个锁外心圆背景颜色 默认whiteColor 也可以设置clearColor看看效果
+@property (nonatomic, strong) UIColor *lockOutsideBackgroundColor;
+
+/// 单个锁普通状态下外心圆边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideNormalColor;
 
-/// 单个锁选中状态下外心圆颜色
+/// 单个锁选中状态下外心圆边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideSelectedColor;
 
-/// 单个锁错误状态下外心圆颜色
+/// 单个锁错误状态下外心圆边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideErrorColor;
 
 /// 外心圆的半径
