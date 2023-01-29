@@ -170,6 +170,10 @@
             [FQLockHelper setBiometryAuthEnable:YES forUserId:self.userID];
         } failureHandler:^(FQBiometryError errorCode) {
             self.faceIDSwitch.on = NO;
+            if (errorCode == FQBiometryErrorBiometryLockout) {
+                // 需要用户锁屏，然后输入手机解锁密码才可以启用 生物识别
+               // 最好在这里提示一下
+            }
         }];
     } else {
         [FQLockHelper setBiometryAuthEnable:NO forUserId:self.userID];
