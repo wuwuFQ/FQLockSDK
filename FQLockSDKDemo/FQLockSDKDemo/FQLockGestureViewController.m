@@ -8,7 +8,6 @@
 #import "FQLockGestureViewController.h"
 #import "UIColor+RGB.h"
 #import <FQLockSDK/FQLockSDK.h>
-#import "FQLockHelper.h"
 
 #define kPassword @"FQ_PASSWORD"
 

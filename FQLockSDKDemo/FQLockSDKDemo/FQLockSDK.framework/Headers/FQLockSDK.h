@@ -10,6 +10,7 @@
 #import "FQLockGestureView.h"
 #import "FQLockConfig.h"
 #import "FQBiometryContext.h"
+#import "FQLockHelper.h"
 
 //! Project version number for FQLockSDK.
 FOUNDATION_EXPORT double FQLockSDKVersionNumber;

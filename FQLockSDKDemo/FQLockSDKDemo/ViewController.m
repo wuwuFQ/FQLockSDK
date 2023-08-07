@@ -8,7 +8,6 @@
 #import "ViewController.h"
 #import <FQLockSDK/FQLockSDK.h>
 #import "FQLockGestureViewController.h"
-#import "FQLockHelper.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UISwitch *gestureSwitch;

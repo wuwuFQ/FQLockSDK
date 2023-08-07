@@ -60,15 +60,21 @@ NS_ASSUME_NONNULL_BEGIN
 //====================单个锁的外心圆==========================
 
 /// 单个锁外心圆背景颜色 默认whiteColor 也可以设置clearColor看看效果
-@property (nonatomic, strong) UIColor *lockOutsideBackgroundColor;
+@property (nonatomic, strong) UIColor *lockOutsideNormalBackgroundColor;
 
-/// 单个锁普通状态下外心圆边框颜色
+/// 单个锁选中状态下外心圆 背景颜色 默认whiteColor
+@property (nonatomic, strong) UIColor *lockOutsideSelectedBackgroundColor;
+
+/// 单个锁错误状态下外心圆 背景颜色 默认whiteColor
+@property (nonatomic, strong) UIColor *lockOutsideErrorBackgroundColor;
+
+/// 单个锁普通状态下外心圆 边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideNormalColor;
 
-/// 单个锁选中状态下外心圆边框颜色
+/// 单个锁选中状态下外心圆 边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideSelectedColor;
 
-/// 单个锁错误状态下外心圆边框颜色
+/// 单个锁错误状态下外心圆 边框颜色
 @property (nonatomic, strong) UIColor *lockOutsideErrorColor;
 
 /// 外心圆的半径

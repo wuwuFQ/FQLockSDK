@@ -7,7 +7,8 @@
 
 #import "AppDelegate.h"
 #import "FQLockGestureViewController.h"
-#import "FQLockHelper.h"
+#import <FQLockSDK/FQLockSDK.h>
+
 
 @interface AppDelegate ()
 

@@ -11,7 +11,6 @@
 		5434104C28E5354C00D42FD6 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5434104B28E5354C00D42FD6 /* UIColor+RGB.m */; };
 		543841E428E54FEE00F2A3CF /* FQLockSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543841E228E54FC600F2A3CF /* FQLockSDK.framework */; };
 		543841E528E54FEE00F2A3CF /* FQLockSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 543841E228E54FC600F2A3CF /* FQLockSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		543841F228E5769E00F2A3CF /* FQLockHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 543841F028E5769E00F2A3CF /* FQLockHelper.m */; };
 		547D401728E2FA480076EFC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D401628E2FA480076EFC1 /* AppDelegate.m */; };
 		547D401A28E2FA480076EFC1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D401928E2FA480076EFC1 /* SceneDelegate.m */; };
 		547D401D28E2FA480076EFC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D401C28E2FA480076EFC1 /* ViewController.m */; };
@@ -42,8 +41,6 @@
 		5434104B28E5354C00D42FD6 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		5434104E28E5440200D42FD6 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
 		543841E228E54FC600F2A3CF /* FQLockSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FQLockSDK.framework; sourceTree = "<group>"; };
-		543841F028E5769E00F2A3CF /* FQLockHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLockHelper.m; sourceTree = "<group>"; };
-		543841F128E5769E00F2A3CF /* FQLockHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLockHelper.h; sourceTree = "<group>"; };
 		547D401228E2FA480076EFC1 /* FQLockSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQLockSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		547D401528E2FA480076EFC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		547D401628E2FA480076EFC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 				547D401C28E2FA480076EFC1 /* ViewController.m */,
 				5434104828E5351100D42FD6 /* FQLockGestureViewController.h */,
 				5434104728E5351100D42FD6 /* FQLockGestureViewController.m */,
-				543841F128E5769E00F2A3CF /* FQLockHelper.h */,
-				543841F028E5769E00F2A3CF /* FQLockHelper.m */,
 				5434104A28E5354C00D42FD6 /* UIColor+RGB.h */,
 				5434104B28E5354C00D42FD6 /* UIColor+RGB.m */,
 				547D401E28E2FA480076EFC1 /* Main.storyboard */,
@@ -202,7 +197,6 @@
 				547D401D28E2FA480076EFC1 /* ViewController.m in Sources */,
 				5434104C28E5354C00D42FD6 /* UIColor+RGB.m in Sources */,
 				5434104928E5351100D42FD6 /* FQLockGestureViewController.m in Sources */,
-				543841F228E5769E00F2A3CF /* FQLockHelper.m in Sources */,
 				547D401728E2FA480076EFC1 /* AppDelegate.m in Sources */,
 				547D402828E2FA490076EFC1 /* main.m in Sources */,
 				547D401A28E2FA480076EFC1 /* SceneDelegate.m in Sources */,

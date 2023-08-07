@@ -10,19 +10,23 @@
 		</data>
 		<key>Headers/FQLockConfig.h</key>
 		<data>
-		SJktAFpWJ15+n6IsqRrZZM0TObc=
+		nIziM+DWqwoxW9WJNHi5ozIGpeg=
 		</data>
 		<key>Headers/FQLockGestureView.h</key>
 		<data>
 		+E/rUKcb/AhJv1pmTA0mOLaiObg=
 		</data>
+		<key>Headers/FQLockHelper.h</key>
+		<data>
+		DOwAiovcGMaB4ru1uQnE22ewV4o=
+		</data>
 		<key>Headers/FQLockSDK.h</key>
 		<data>
-		VmuaYse1D8bHXppdwtvWZnhQFWs=
+		xLJecYdbrE0UwvD6OCBaFMIO860=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7oD9QyPTpo41uYyYa2ViXlAVAxw=
+		hhNnT5hh/Oq9DfgCHvvUfGcQ0po=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +46,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IlM1Eu1xP5rv8VHBwXPRCuwwGXo3otV4UGAEYLpzf8k=
+			ldCFsuJB8MGkPk7BeK+3m424/Dimh32yRZakQ5Kv0oo=
 			</data>
 		</dict>
 		<key>Headers/FQLockGestureView.h</key>
@@ -52,11 +56,18 @@
 			9nCKXXq3U5+rIw+4hklrPouV98sbYw79PgLXBcJlQoQ=
 			</data>
 		</dict>
+		<key>Headers/FQLockHelper.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZNZHW7ouoinzq/vWAgDU63JEG58SBsIR+9fwPNgdLds=
+			</data>
+		</dict>
 		<key>Headers/FQLockSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DdFMjcd1e3RmJr1neK32tuj/PTza1cI9ITlONxnEkCE=
+			BYbbALzfUg9nbzP+FcmfbSubGe7npR8CCvp2VkFImgg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

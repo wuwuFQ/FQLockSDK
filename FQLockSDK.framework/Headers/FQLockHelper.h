@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FQLockSDK/FQLockSDK.h>
 @interface FQLockHelper : NSObject
 
 ///是否设置了生物识别

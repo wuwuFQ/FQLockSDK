@@ -7,7 +7,7 @@
 
 #import "SceneDelegate.h"
 #import "FQLockGestureViewController.h"
-#import "FQLockHelper.h"
+#import <FQLockSDK/FQLockSDK.h>
 
 @interface SceneDelegate ()
 
